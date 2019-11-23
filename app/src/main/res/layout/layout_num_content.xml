@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="60dp"
+    android:layout_height="600dp"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/style_text_num"
+        android:text="第一节课" />
+
+    <TextView
+        style="@style/style_text_num"
+        android:text="第二节课" />
+
+    <TextView
+        style="@style/style_text_num"
+        android:text="第三节课" />
+
+    <TextView
+        style="@style/style_text_num"
+        android:text="第四节课" />
+
+    <TextView
+        style="@style/style_text_num"
+        android:text="第五节课" />
+
+    <TextView
+        style="@style/style_text_num"
+        android:text="第六节课" />
+
+    <TextView
+        style="@style/style_text_num"
+        android:text="第七节课" />
+
+</LinearLayout>

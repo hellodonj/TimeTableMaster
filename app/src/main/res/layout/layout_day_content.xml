@@ -1,0 +1,43 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--第几周-->
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:gravity="center" />
+
+    <TextView
+        style="@style/style_text_day"
+        android:text="星期一" />
+
+
+    <TextView
+        style="@style/style_text_day"
+        android:text="星期二" />
+
+
+    <TextView
+        style="@style/style_text_day"
+        android:text="星期三" />
+
+
+    <TextView
+        style="@style/style_text_day"
+        android:text="星期四" />
+
+
+    <TextView
+        style="@style/style_text_day"
+        android:text="星期五" />
+
+
+    <TextView
+        style="@style/style_text_day"
+        android:text="星期六" />
+
+
+    <TextView
+        style="@style/style_text_day"
+        android:text="星期日" />
+
+
+</merge>

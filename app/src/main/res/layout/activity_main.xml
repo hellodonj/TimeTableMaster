@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/id_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/id_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="课表"
+            android:textColor="@color/app_black"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <com.zhuangfei.timetable.view.WeekView
+        android:id="@+id/id_weekview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.zhuangfei.timetable.TimetableView
+        android:id="@+id/id_timetableView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/app_white" />
+
+</LinearLayout>
